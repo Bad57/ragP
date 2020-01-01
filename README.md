@@ -8,7 +8,7 @@
 * Véhicules aériens ignorés  
 * Modifiable & Adaptable simplement
 
-## Modifications possibles 📌 
+## Futures Modifications  📌 
 
 * Annimation lors du reveil du joueur 
 * Facteur aléatoire déterminant le temps de coma 
