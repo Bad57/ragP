@@ -27,7 +27,3 @@
         end
     end)
 end)
-
-AddEvent("OnPlayerEnterVehicle", function(player, vehicle, seat)
-    print(GetVehicleModelName(vehicle))
-end)
