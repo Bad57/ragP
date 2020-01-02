@@ -2,11 +2,11 @@
     "author": "Bad",
     "version": "1.0",
     "server_scripts": [
-        "ragP/server.lua",
-        "ragP/settings.lua"
+        "server.lua",
+        "settings.lua"
     ],
     "client_scripts": [
-        "ragP/client.lua"
+        "client.lua"
     ],
     "files": [
     ]
