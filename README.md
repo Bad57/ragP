@@ -8,7 +8,7 @@
 * Véhicules aériens ignorés  
 * Modifiable & Adaptable simplement
 * Animation lors du reveil du joueur
-* Ramdomisation des temps de coma et dégats au joueur 
+* Randomisation des temps de coma et dégats au joueur 
 
 ### Une idée / Un problème 💡❔
 
