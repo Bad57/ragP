@@ -15,14 +15,18 @@
         if currentspeed < S_v1 then
             Delay(S_t1,function()
                 SetPlayerRagdoll(player,false)
+                SetPlayerAnimation(player, S_animation)
+                
             end)
         elseif currentspeed < S_v2 then
             Delay(S_t2,function()
                 SetPlayerRagdoll(player,false)
+                SetPlayerAnimation(player, S_animation)
             end)
         else
             Delay(S_t3,function()
                 SetPlayerRagdoll(player,false)
+                SetPlayerAnimation(player, S_animation)
             end)
         end
     end)

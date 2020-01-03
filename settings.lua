@@ -2,6 +2,7 @@
 -- https://github.com/Bad57/ragP
 
 S_ignoredVehicles = {"Helicopter_01","Helicopter_02"} -- ModelName des véhicules ignorés
+S_animation = "PUSHUP_END"
 S_ratioDegats = 0.9 -- Multiplicateur appliqué à la vitesse du véhicule
 S_vitesseMin = 10 -- Vitesse minimale déclenchement ragdoll
 S_v1 = 50 -- Seuil du premier palier de vitesse
