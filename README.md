@@ -7,13 +7,13 @@
 * Paramétrage simple au travers du fichier **settings.lua**
 * Véhicules aériens ignorés  
 * Modifiable & Adaptable simplement
+* Animation lors du reveil du joueur
 
 ## Futures Modifications  📌 
-
-* Annimation lors du reveil du joueur 
+ 
 * Facteur aléatoire déterminant le temps de coma 
 
-### Une idée 💡
+### Une idée / Un problème 💡❔
 
 📮 Discord : Bad#2024
 
