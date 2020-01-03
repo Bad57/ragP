@@ -4,30 +4,22 @@
  AddRemoteEvent("RagdollPlayer", function (player, currentspeed,vehicle)
     if currentspeed < S_vitesseMin then return end
     for _, v in pairs(S_ignoredVehicles) do
-        print(v)
         if tostring(GetVehicleModelName(vehicle)) == v then return end
     end
 
     local currenthealth = GetPlayerHealth(player)
-    SetPlayerHealth(player, currenthealth-(currentspeed*S_ratioDegats))
+    local random = math.random(100)
+    if random < S_minP then random = S_minP end
+    random = random/100
+
+    SetPlayerHealth(player, math.floor(currenthealth-((currentspeed*S_ratioDegats)*random)))
+    local ragTime = math.floor((currentspeed/2)*random)*1000
     Delay(100, function ()
         SetPlayerRagdoll(player,true)
-        if currentspeed < S_v1 then
-            Delay(S_t1,function()
-                SetPlayerRagdoll(player,false)
-                SetPlayerAnimation(player, S_animation)
-                
-            end)
-        elseif currentspeed < S_v2 then
-            Delay(S_t2,function()
-                SetPlayerRagdoll(player,false)
-                SetPlayerAnimation(player, S_animation)
-            end)
-        else
-            Delay(S_t3,function()
-                SetPlayerRagdoll(player,false)
-                SetPlayerAnimation(player, S_animation)
-            end)
-        end
+        Delay(ragTime,function()
+            SetPlayerRagdoll(player,false)
+            SetPlayerAnimation(player, S_animation)
+        end)
     end)
 end)
+
