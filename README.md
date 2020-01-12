@@ -1,16 +1,17 @@
-# Module OnSet - RagP (RagdollPlayer) 📎
+# OnSet Package - RagP (RagdollPlayer) 📎
 
-*Module permetant de ragdoll un joueur lorsqu'il s'éjècte d'un véhicule en marche*
+*This package allows you to ragdoll player when they eject from a driving vehicle*
+
+![banner](https://i.imgur.com/co2crFM.png)
 
 ## Description 📝
 
-* Paramétrage simple au travers du fichier **settings.lua**
-* Véhicules aériens ignorés  
-* Modifiable & Adaptable simplement
-* Animation lors du réveil du joueur
-* Randomisation des temps de coma et dégâts au joueur 
+* Easy customisation through the **settings.lua** file
+* Flying vehicles not included  
+* Wake up animation
+* Random player damages and inconsciousness time  
 
-### Une idée / Un problème 💡❔
+### An Idea / An issue 💡❔
 
 📮 Discord : Bad#2024
 
