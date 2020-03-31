@@ -1,4 +1,4 @@
-# OnSet Package - RagP (RagdollPlayer) 📎
+# OnSet Package - RagP (RagdollPlayer) 📦
 
 *This package allows you to ragdoll player when they eject from a driving vehicle*
 
